@@ -12,8 +12,7 @@ class Transfer
   end
 
   def valid?
-    if (@sender.valid? == true and @receiver.valid? == true) or @sender.balance > @amount
-
+    if @sender.valid? == true and @receiver.valid? == true and @sender.balance > @amoun
       true
     else
       false
