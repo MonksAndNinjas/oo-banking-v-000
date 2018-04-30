@@ -3,7 +3,7 @@ class Transfer
   # your code here
   def initialize(name_sender, name_receiver, money)
     @name_sender = name_sender
-    @name_receiver = name_reciever
+    @name_receiver = name_receiver
     @money = money
   end
 
