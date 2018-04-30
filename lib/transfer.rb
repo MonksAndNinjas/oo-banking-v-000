@@ -27,8 +27,8 @@ class Transfer
     else
       sender.balance.freeze
       receiver.balance.freeze
-      "Transaction rejected. Please check your account balance."
       self.status = "rejected"
+      "Transaction rejected. Please check your account balance."
     end
   end
 
