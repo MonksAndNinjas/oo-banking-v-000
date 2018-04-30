@@ -23,7 +23,7 @@ class Transfer
       receiver.balance.freeze
       self.status = "rejected"
       "Transaction rejected. Please check your account balance."
-    elseif 
+    elseif
     
     else
       sender.balance -= amount
