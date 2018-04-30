@@ -3,5 +3,5 @@ class Transfer
   def transfer(name_sender, name_receiver, money)
     
   end
-  
+
 end
