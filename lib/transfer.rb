@@ -18,7 +18,7 @@ class Transfer
   end
 
   def execute_transaction
-    if self.status == "complete"
+    if self.status == "complete" or self.valid? == false
       sender.balance.freeze
       receiver.balance.freeze
     else
