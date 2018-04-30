@@ -19,11 +19,7 @@ class BankAccount
 
   def valid?
     # bank account is "valid" if bankaccount.status: @status == "open" and  bankaccount.balance >0
-    if self.status == "open" and self.balance > 0
-      true
-    else
-      false
-    end
+    true if self.status == "open" and self.balance > 0
   end
 
 end
